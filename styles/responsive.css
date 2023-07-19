@@ -1,0 +1,81 @@
+@media screen and (max-width:576px) {
+    .nav-container,
+    .nav-item-container ,
+    .banner-section,
+    .online-game-section,
+    .videos,
+    .all-game,
+    .games-section
+   
+    
+    {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0px;
+       
+    }
+  
+
+    .logo-container{
+        padding-right: 70px;
+    }
+
+    .nav-item-container a{
+          margin: 10px;
+    }
+    .banner-section{
+        flex-direction: column-reverse;
+
+    }
+  
+    .banner-section img {
+        max-width: 380px;
+        
+
+    }
+    .videos{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+    .laft-content{
+        background: rgba(255, 20, 145, 0.108);
+        height: 280px;
+        width: 420px;
+        padding-bottom: 140px;
+        
+    }
+    .games-section{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .game-section-img{
+        height: 70%;
+        width: 70%;
+        
+    }
+    .btn-sec .game-name{
+        font-size: 12px;
+
+    }
+   
+
+
+    .online-game-images{
+        justify-content: center;
+        align-items: center;
+        max-width: 400px;
+        padding-right: 20px;
+        margin-top: 0px;
+        
+    }
+    
+    .small-image img{
+        width: 200px;
+        height: 250px;
+        position: relative;
+        padding-left: 30px;
+        
+    }
+  
+}

@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700;1,800&family=Work+Sans:wght@400;500;600;700&display=swap');
+  
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+nav{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-container{
+   
+    min-height: 100px;
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    
+   
+    
+}
+.logo-container{
+  
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+    padding-left: 40px;
+}
+.logo-container img{
+    width: 80px;
+    height: 40px;
+    /* padding-top: 50px; */
+    
+    
+}
+.logo-container p{
+    font-size: 45px;
+    font-weight: 700;
+   
+    
+}
+span{
+    color: #FF42A5;
+}
+.nav-item-container{
+    
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item-container a{
+    text-decoration: none;
+    /* padding-left: 100px; */
+    /* kaz ache */
+}
+
+.follow-btn{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    text-align: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+#logo-color{
+    color: red;
+}
+.follow-btn i{
+    padding-left: 10px;
+
+}
+
+
+
+
+/* banner section */
+
+
+
+.banner-section{
+    display: flex;
+    text-align: center; 
+   
+}
+.banner-section .btn{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.laft-content{
+    
+    background-image: url(../images/Group\ 14.png) , linear-gradient(223deg, rgba(140, 87, 238, 0) 0%, rgba(241, 68, 175, 0.126) 100%);;
+    width: 900px;
+    height: 480px;
+    padding-top: 200px;
+    
+    
+}
+
+
+.title{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 600;
+}
+.text-title{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.description{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    text-align: center;
+    
+    
+    
+  
+}
+
+.btn{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+   border: none;
+   
+    
+}
+.btn-1{
+   padding: 21px 40px;
+   background: #FF42A5;
+   border-radius: 45px;
+   border: none;
+   color: #FFF;
+   font-size: 1.2rem;
+
+
+}
+.btn-2{
+
+    padding: 21px 40px;
+    background: #4EC5F7;;
+    border-radius: 45px;
+    border: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+  /*  */
+  .video-section{
+    margin-top: 70px;
+    
+  }
+
+  .video-section-text{
+    text-align: center;
+  }
+
+  .video-section-title{
+    font-family: Work Sans;
+    font-size: 2.8rem;
+    font-weight: 700;
+  }
+  .video-section-title-span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+
+  }
+  .video-section-description{
+    padding-top: 20px;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+
+  }
+  .videos p {
+     color: #534C64;
+     font-family: Work Sans;
+     font-size: 20px;
+     font-weight: 500;
+  }
+
+  .videos{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-top: 60px;
+
+  }
+
+
+
+
+
+
+/*  */
+
+.online-game-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* max-height: 700px; */
+
+   
+}
+
+.text-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+}
+.online-game-section-title{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    color: #0B0223;
+    
+}
+.online-game-section-description{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    
+}
+
+
+.online-game-images{
+    
+
+    margin-top: 170px;
+    margin-left: 70px;
+}
+
+.game-section-img{
+    width: 500px;
+    height: 500px;
+    margin-left: 80px;
+    margin-top: 40px;
+
+
+}
+.small-image img{
+    width: 200px;
+    height: 250px;
+    position: relative;
+    margin-right: 420px;
+    bottom: 150px;
+
+}
+/*games styles start */
+
+.all-game{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  
+
+ 
+   
+}
+.games-section {
+    margin: 40px;
+    display: grid; 
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    
+
+}
+
+.btn-sec {
+    border-radius: 50px;
+    background: #f7f1f1;
+    padding: 4px ;
+    border: none;
+
+}
+
+.games-section img {
+    vertical-align: middle;
+
+}
+
+.games-section span {
+    vertical-align: middle;
+    font-size: 1.1rem;
+    color: #0B0223;
+}
+
+.btn-sec:hover {
+    background-color: #f7ddedce;
+    border: 2px solid #FF42A5;
+    
+    
+
+}
+.game-name:hover{
+    color: #F948B2;
+   
+    
+}
+/*games styles end */
+
+/* footer start */
+.footer-container{
+    text-align: center;
+    background: black;
+    color: white;
+    
+    
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.footer-title{
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    padding-left: 10px;
+
+}
+.footer-service span{
+    color: #FFF;
+    padding: 30px;
+    
+    
+}
+.media-icon {
+    
+   font-size: 50px;
+   
+   padding-top: 40px;
+   padding-bottom: 30px;
+   
+
+}
+.footer-Policy span{
+    
+    padding: 30px;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.copyright{
+    padding: 40px;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+
