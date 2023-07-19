@@ -216,6 +216,8 @@ span{
   }
 
 
+  
+
 
 
 
@@ -361,18 +363,57 @@ span{
 .footer-service span{
     color: #FFF;
     padding: 30px;
-    
-    
+     
 }
+.games-video{
+    position: relative;
+    display: inline-block;
+}
+ .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+  .icon i{
+    font-size: 40px;
+    color: rgba(255, 254, 254, 0.826);
+    padding: 20px;
+
+  }
+  .icon span{
+    color: rgb(255, 0, 0);
+  }
+  .media-icon a {
+    color: #ffffff;
+  }
+  .media-icon .twetter{
+    color: #4EC5F7;
+  }
+  .media-icon .facebook{
+    color: #3f4fff;
+  }
+  .media-icon .youtube{
+    color: #ff0d00;
+  }
+  .media-icon .linkedin{
+    color: #005579;
+  }
+  .media-icon .instagram{
+    color: #f74ec7;
+  }
+  .media-icon .apple{
+    color: #53515a;
+  }
+
 .media-icon {
-    
    font-size: 50px;
-   
    padding-top: 40px;
    padding-bottom: 30px;
    
+} 
 
-}
 .footer-Policy span{
     
     padding: 30px;
